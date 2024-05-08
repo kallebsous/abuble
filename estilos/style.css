@@ -1,0 +1,63 @@
+* {
+    padding: 0%;
+    background-color: #012f19;
+}
+
+main{
+    flex: auto;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+header h1{
+    font-family: "Comfortaa", Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: "Luckiest Guy", Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-family: "Comfortaa", Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    flex: auto;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.exception{
+    width: 20%;
+}
+
+.facsi{
+    width: 40%;
+}
